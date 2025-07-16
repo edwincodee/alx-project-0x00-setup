@@ -10,9 +10,9 @@ const Card: React.FC =  () => {
         <div className="h-[422px] w-[378.56px] cursor-pointer hover:shadow-md hover:rounded-lg">
             <Image className="rounded-lg" src={HOUSE_IMAGE} width={378.56} height={299.37} alt="house image" />
             <div className="p-2 flex gap-2 mt-2">
-                <Pill tittle="Top Villa" />
-                <Pill tittle="Self CheckIn" />
-                <Pill tittle="Free Reschedule" />
+                <Pill title="Top Villa" />
+                <Pill title="Self CheckIn" />
+                <Pill title="Free Reschedule" />
             </div>
             <div className="flex items-center justify-between">
                 <div>
